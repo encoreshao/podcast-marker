@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+
+# Ignore all files in the temp_audio_sections directory
+temp_audio_sections/*
+
+# any files in the temp directory
+temp/*
+cache/*
+outputs/*
+
+# all generated markdown and mp3 files
+*.md
+*.mp3

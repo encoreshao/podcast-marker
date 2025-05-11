@@ -1,0 +1,9 @@
+requests
+python-dotenv
+gtts
+pydub
+
+# Note: You must have ffmpeg installed on your system for pydub to handle MP3 files.
+# On macOS: brew install ffmpeg
+# On Ubuntu: sudo apt-get install ffmpeg
+# On Windows: Download from https://ffmpeg.org/download.html and add to PATH

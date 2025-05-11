@@ -1,0 +1,14 @@
+[project]
+name = "podcast-marker"
+version = "0.1.0"
+description = "Generate podcast-ready markdown summaries and audio (MP3) from GitLab issues and comments, with multi-speaker TTS."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Encore Shao" }]
+dependencies = ["requests", "python-dotenv", "gtts", "pydub"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
