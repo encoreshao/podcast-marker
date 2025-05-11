@@ -19,5 +19,4 @@ cache/*
 outputs/*
 
 # all generated markdown and mp3 files
-*.md
 *.mp3
